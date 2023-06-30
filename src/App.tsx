@@ -1,13 +1,10 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
+
 function App() {
-  
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline bg-blue-200">Hello world!</h1>
-      <Navbar/>
+      <Navbar />
     </div>
   );
 }
