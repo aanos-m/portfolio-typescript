@@ -11,7 +11,7 @@ type Props = {}
 const Navbar = (props: Props) => {
   return (
     <>
-      <div className="bg-slate-200 p-5 flex justify-between shadow-lg hover:shadow-xl">
+      <div className="bg-slate-200 p-5 m-5 flex justify-between shadow-lg hover:shadow-xl">
           <Stack direction='row' spacing={5} justifyContent='' alignItems='center' >
             <Avatar alt="Test" src="" />
           </Stack>
