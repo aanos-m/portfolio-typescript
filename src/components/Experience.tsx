@@ -7,10 +7,8 @@ const Experience = (props: Props) => {
   return (
     <div className=" p-5 m-5 bg-slate-200 flex flex-wrap space-x-5 justify-center">
         
-      <div className="m-2 w-1/3 rounded overflow-hidden shadow-lg">
-        <img
-          className="w-48 h-48 " src="./rm.png" alt="Sunset in the mountains" 
-        />
+      <div className="m-2 max-w-md rounded-sm overflow-hidden shadow-lg ">
+        <img className="w-1/2" src="./rm.png" alt="Sunset in the mountains" />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">RippleMatch </div>
           <div className="font-semibold text-md mb-2">
@@ -27,7 +25,8 @@ const Experience = (props: Props) => {
                 and peer and faculty member networking to grow the user base and awareness on campus
               </ListItem>
               <ListItem>
-               Strategically assessed growth and performance metrics to improve, change and/or help design new growth strategies
+                Strategically assessed growth and performance metrics to improve, 
+                change and/or help design new growth strategies
               </ListItem>
             </List>
           </p>
