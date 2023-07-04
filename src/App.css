@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.grow{
+  font-size: 2.5em;
+}
+.grow:hover{
+  animation: growFont 3s linear;
+}
+ @keyframes growFont {
+  0% { font-size: 2.5em;}
+  100% { font-size: 3em;}
+ }
