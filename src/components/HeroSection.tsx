@@ -22,7 +22,7 @@ const HeroSection = (props: Props) => {
         </span>
         <img
           className="p-4 object-contain max-w-none max-h-96"
-          src="./img.png"
+          src="./me.png"
           alt="my image"
         />
         <p className="font-normal text-center subpixel-antialiased">
