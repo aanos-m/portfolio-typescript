@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="App bg-slate-900 overflow-hidden m-5" >
+    <div className="App bg-slate-900 overflow-hidden" >
       <Navbar />
       <HeroSection/>
       <Experience/>
