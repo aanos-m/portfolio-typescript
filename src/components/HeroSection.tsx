@@ -10,7 +10,7 @@ const HeroSection = (props: Props) => {
 
   return (
     <>
-      <div className="p-5 m-5 bg-slate-200 flex flex-col justify-center items-center">
+      <div className="p-5 m-5 bg-slate-200 flex flex-col justify-center items-center shadow-lg">
         <span className="font-bold p-2 grow"> Aanos Mahmood </span>
         <span className="text-lg font-semibold p-2">
           <TypeAnimation

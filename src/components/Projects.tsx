@@ -1,10 +1,11 @@
 import React from "react";
 
+
 type Props = {};
 
 const Projects = (props: Props) => {
   return (
-    <div className="p-5 m-5 flex flex-col justify-center bg-slate-200" id="projects">
+    <div className="p-5 m-5 flex flex-col justify-center bg-slate-200 shadow-lg" id="projects">
       <span className="text-4xl font-bold m-2"> Projects </span>
       <div className="flex flex-wrap justify-center">
         <div className="m-2 max-w-xs rounded overflow-hidden shadow-lg">

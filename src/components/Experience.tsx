@@ -4,7 +4,7 @@ type Props = {}
 
 const Experience = (props: Props) => {
   return (
-    <div className=" p-5 m-5 bg-slate-200 flex flex-col space-x-5 justify-center" id='experience'>
+    <div className=" p-5 m-5 bg-slate-200 flex flex-col space-x-5 justify-center shadow-lg" id='experience'>
         <h1 className='text-4xl font-semibold m-2'>Experience</h1>
 
         <div className="flex flex-col items-center">
